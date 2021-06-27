@@ -1,0 +1,3 @@
+rootProject.name = "YokoSDKExample"
+include ':app'
+include ':YokoSDK'

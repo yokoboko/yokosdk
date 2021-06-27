@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yo",
+    "module": "yokosdk",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "l65zkflsjzbflelfym7lzzbedu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "yokosdk-0.1.1.aar",
+          "url": "yokosdk-0.1.1.aar",
+          "size": 25851,
+          "sha512": "7b974cf2db738e605a78bffd00f32c44e0ca5dfd8c3f8eb0600946320b0b48a0e83ec3bc692f9f4757b11377c41d64d6d838402ee1361e513caf56eee90db7cd",
+          "sha256": "825a9db36a302832d06acc9e7cd3defa697a93c10f310551fc300214b52501d0",
+          "sha1": "8cda977f0bfbe308be2ef716447b11faa84c20ef",
+          "md5": "26b8be7c738b9a192e58149a9335bb78"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yokosdk-0.1.1.aar",
+          "url": "yokosdk-0.1.1.aar",
+          "size": 25851,
+          "sha512": "7b974cf2db738e605a78bffd00f32c44e0ca5dfd8c3f8eb0600946320b0b48a0e83ec3bc692f9f4757b11377c41d64d6d838402ee1361e513caf56eee90db7cd",
+          "sha256": "825a9db36a302832d06acc9e7cd3defa697a93c10f310551fc300214b52501d0",
+          "sha1": "8cda977f0bfbe308be2ef716447b11faa84c20ef",
+          "md5": "26b8be7c738b9a192e58149a9335bb78"
+        }
+      ]
+    }
+  ]
+}
