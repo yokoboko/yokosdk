@@ -22,10 +22,9 @@ afterEvaluate {
             maven {
                 // buildDir, projectDir(module), rootDir
                 url "$rootDir/releases"
-//                url "git@github.com:yokoboko/mTest.git"
             }
         }
-    }œ
+    }
 }
 
 
